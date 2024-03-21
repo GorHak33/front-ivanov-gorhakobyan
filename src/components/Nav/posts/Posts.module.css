@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.post {
+  width: calc(33.33% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-top: 80px;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+}
+
+.post h2 {
+  margin-top: 10px;
+}
+
+.post h4 {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.post span {
+  display: block;
+  font-size: 12px;
+  color: #666;
+}
+
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
